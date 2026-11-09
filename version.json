@@ -1,25 +1,18 @@
 {
     "produto":  "Acesso Remoto",
-    "versao":  "1.0.0.0",
+    "versao":  "1.0.0.1",
     "data":  "2026-11-09",
-    "titulo":  "Acesso Remoto 1.0.0.0",
-    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.0/AcessoRemoto_Setup_1.0.0.0.exe",
-    "arquivo":  "AcessoRemoto_Setup_1.0.0.0.exe",
-    "sha256":  "aa3587add2de3f13baeb68f388a04817f2b93bbcf42a6abae8381ca16b27c6ef",
+    "titulo":  "Acesso Remoto 1.0.0.1",
+    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.1/AcessoRemoto_Setup_1.0.0.1.exe",
+    "arquivo":  "AcessoRemoto_Setup_1.0.0.1.exe",
+    "sha256":  "e57fab97daeba58d6d72e9cc9a0aff72e792bdb98ef9308914c28c0ae6b2ed82",
     "portable":  {
-                     "arquivo":  "AcessoRemoto_Portable_1.0.0.0.zip",
-                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.0/AcessoRemoto_Portable_1.0.0.0.zip",
-                     "sha256":  "408f720d3c5d6c250fd5d044c38bebc7c7fac880ca1c3742d57d13e98d274d81"
+                     "arquivo":  "AcessoRemoto_Portable_1.0.0.1.zip",
+                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.1/AcessoRemoto_Portable_1.0.0.1.zip",
+                     "sha256":  "cf611a339dd730e28f06280c9fa537b5342c70102b460143be72aef31128b80f"
                  },
     "obrigatoria":  true,
     "descricao":  [
-                      "Cadastro de acessos (RDP, AnyDesk, TeamViewer, RustDesk, Web) em banco Firebird 5 compartilhado",
-                      "Importação de texto colado ou TXT com vários acessos (formatos livres, ANSI ou UTF-8)",
-                      "Importação com filtro por tipo (RDP, Web, AnyDesk, Outros, sem endereço) e por texto: salva só o que interessa",
-                      "Filtro por tipo na lista de acessos",
-                      "Aba Datacenter: arquivos .rdp gravados no banco e abertos já logados",
-                      "Login do datacenter salvo só neste computador (cifrado pelo Windows)",
-                      "Portal RD Web: cole o link do sistema e abra o RD Web para baixar o .rdp",
-                      "Atualização automática obrigatória e versão exibida na tela"
+                      "Acesso Remoto 1.0.0.1"
                   ]
 }
