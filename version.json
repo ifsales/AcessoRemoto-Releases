@@ -1,20 +1,22 @@
 {
     "produto":  "Acesso Remoto",
-    "versao":  "1.0.0.3",
+    "versao":  "1.0.0.4",
     "data":  "2026-11-09",
-    "titulo":  "Acesso Remoto 1.0.0.3",
-    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.3/AcessoRemoto_Setup_1.0.0.3.exe",
-    "arquivo":  "AcessoRemoto_Setup_1.0.0.3.exe",
-    "sha256":  "876bfa580d1d0bad702223a84773e9f7e4b4cabe07848b64735ff9da2cbf9b03",
+    "titulo":  "Acesso Remoto 1.0.0.4",
+    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.4/AcessoRemoto_Setup_1.0.0.4.exe",
+    "arquivo":  "AcessoRemoto_Setup_1.0.0.4.exe",
+    "sha256":  "8ac10b15c0ae8070950e42490ac649fa5cfd09ee94ffe3cda75caf78750f0e20",
     "portable":  {
-                     "arquivo":  "AcessoRemoto_Portable_1.0.0.3.zip",
-                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.3/AcessoRemoto_Portable_1.0.0.3.zip",
-                     "sha256":  "77a025dd072fc7da29f6f69ea847d05c8fc05a6a01036d1e6a8a3a8496a37b85"
+                     "arquivo":  "AcessoRemoto_Portable_1.0.0.4.zip",
+                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.4/AcessoRemoto_Portable_1.0.0.4.zip",
+                     "sha256":  "7a3eee14acd934f8ddabf6fe54954d1d98e5d17507e6a940c8c0041da1627a88"
                  },
     "obrigatoria":  true,
     "descricao":  [
-                      "Banco Firebird passa a usar o login FSCSIP (o mesmo do SIP); quem estava no padrão SYSDBA migra sozinho",
-                      "Banco criado automaticamente se não existir, já liberado para todos os usuários do banco compartilhado",
-                      "Bancos antigos criados pelo SYSDBA são liberados automaticamente para o FSCSIP"
+                      "Login obrigatório com o cadastro de representantes (mesmo login e senha do SIP/MVC)",
+                      "Representantes copiados do banco SIP para o banco do Acesso Remoto (automático na primeira vez)",
+                      "Log de auditoria: entrada, saída, conexão (qual cidade), inclusão, alteração e exclusão, com IP, usuário e horário",
+                      "Tela \"Log\" com filtro por período, usuário, cidade e exportação CSV",
+                      "Importação de vários TXT de uma vez (entidade = nome do arquivo)"
                   ]
 }
