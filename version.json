@@ -1,18 +1,23 @@
 {
     "produto":  "Acesso Remoto",
-    "versao":  "1.0.0.1",
+    "versao":  "1.0.0.2",
     "data":  "2026-11-09",
-    "titulo":  "Acesso Remoto 1.0.0.1",
-    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.1/AcessoRemoto_Setup_1.0.0.1.exe",
-    "arquivo":  "AcessoRemoto_Setup_1.0.0.1.exe",
-    "sha256":  "e57fab97daeba58d6d72e9cc9a0aff72e792bdb98ef9308914c28c0ae6b2ed82",
+    "titulo":  "Acesso Remoto 1.0.0.2",
+    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.2/AcessoRemoto_Setup_1.0.0.2.exe",
+    "arquivo":  "AcessoRemoto_Setup_1.0.0.2.exe",
+    "sha256":  "e70787aec07ad9663579ea6daffcae7d04a92f58996d33f4e9ad2e1a95586c2b",
     "portable":  {
-                     "arquivo":  "AcessoRemoto_Portable_1.0.0.1.zip",
-                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.1/AcessoRemoto_Portable_1.0.0.1.zip",
-                     "sha256":  "cf611a339dd730e28f06280c9fa537b5342c70102b460143be72aef31128b80f"
+                     "arquivo":  "AcessoRemoto_Portable_1.0.0.2.zip",
+                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.2/AcessoRemoto_Portable_1.0.0.2.zip",
+                     "sha256":  "0deec7dc834dc7b1f0973114eb8be49270ce28e42104a7cca3c11e8ae2f3ac89"
                  },
     "obrigatoria":  true,
     "descricao":  [
-                      "Acesso Remoto 1.0.0.1"
+                      "Importação: várias senhas para o mesmo usuário não viram mais \"usuários\" (vale a última)",
+                      "Importação: IPs da rede local (192.168.x, 10.x...) não viram acesso; vão como \"IP interno\" do servidor externo",
+                      "Importação: reconhece \"ACESSO REMOTO: ip:porta\", \"IP EXTERNO ...\", \"SRV-X \u003cTAB\u003e ip\", \"772715187 - ANYDESK\"",
+                      "Importação: login informado uma vez vale para todos os servidores da seção",
+                      "Novo botão \"Apagar tudo...\" (só a aba Acessos ou tudo), com confirmação",
+                      "Versão do release incrementada automaticamente"
                   ]
 }
