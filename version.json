@@ -1,22 +1,19 @@
 {
     "produto":  "Acesso Remoto",
-    "versao":  "1.0.0.4",
+    "versao":  "1.0.0.5",
     "data":  "2026-11-09",
-    "titulo":  "Acesso Remoto 1.0.0.4",
-    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.4/AcessoRemoto_Setup_1.0.0.4.exe",
-    "arquivo":  "AcessoRemoto_Setup_1.0.0.4.exe",
-    "sha256":  "8ac10b15c0ae8070950e42490ac649fa5cfd09ee94ffe3cda75caf78750f0e20",
+    "titulo":  "Acesso Remoto 1.0.0.5",
+    "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.5/AcessoRemoto_Setup_1.0.0.5.exe",
+    "arquivo":  "AcessoRemoto_Setup_1.0.0.5.exe",
+    "sha256":  "3d84ea19e94db0b6197d15e2dfbf0ffb7217a6955375c3686dd7714159bba6d4",
     "portable":  {
-                     "arquivo":  "AcessoRemoto_Portable_1.0.0.4.zip",
-                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.4/AcessoRemoto_Portable_1.0.0.4.zip",
-                     "sha256":  "7a3eee14acd934f8ddabf6fe54954d1d98e5d17507e6a940c8c0041da1627a88"
+                     "arquivo":  "AcessoRemoto_Portable_1.0.0.5.zip",
+                     "download":  "https://github.com/ifsales/AcessoRemoto-Releases/releases/download/v1.0.0.5/AcessoRemoto_Portable_1.0.0.5.zip",
+                     "sha256":  "97334a71fb23f441317acd5ed5de2ceb49452d2ff3faaec5021729303d1dd04a"
                  },
     "obrigatoria":  true,
     "descricao":  [
-                      "Login obrigatório com o cadastro de representantes (mesmo login e senha do SIP/MVC)",
-                      "Representantes copiados do banco SIP para o banco do Acesso Remoto (automático na primeira vez)",
-                      "Log de auditoria: entrada, saída, conexão (qual cidade), inclusão, alteração e exclusão, com IP, usuário e horário",
-                      "Tela \"Log\" com filtro por período, usuário, cidade e exportação CSV",
-                      "Importação de vários TXT de uma vez (entidade = nome do arquivo)"
+                      "Tela principal abre muito mais rápido após o login (lista por cidade de ~1 s para ~0,1 s)",
+                      "Campo Usuário do login aceita minúsculas (o login continua sem diferenciar maiúsculas)"
                   ]
 }
